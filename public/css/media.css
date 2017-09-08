@@ -1,0 +1,229 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.header__top-line {
+	    margin-bottom: 50px;
+	}
+	.navbar-inverse .navbar-nav > li.menu-button a{
+		background-color: transparent;
+		color:#fff;
+		border:none;
+		padding: 10px 15px;
+	}
+	.navbar-inverse .navbar-nav > li.menu-button a:hover{
+		background-color: transparent;
+		color: #212121;
+		border:none;
+		padding: 10px 15px;
+	}
+	.state-summary_text-1:after{
+		width: 160%;
+		left: -159%;
+	}
+	.state-summary_text-2:after{
+		width: 91px;
+		left: -73%;
+	}
+	.state-summary_text-3:after{
+		width: 85px;
+		left: -72%;
+	}
+	.slider{
+		position: static;
+		width: 100%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header{
+		background-image: none;
+		padding-bottom: 50px;
+	}
+	.features{
+		margin-bottom: 20px;
+	}
+	.features__img img{
+		max-width: 40%;
+	}
+	.state-circle_wrapper{
+		float: none;
+		margin: 0 auto;
+	}
+	.state-summary{
+		height: 150px;
+	}
+	.state-summary_text:after{
+		display: none;
+	}
+	.pricing__text_wraper{
+		min-height: auto;
+	}
+	.pricing__text{
+		position: static;
+	}
+	.map__item{
+		margin-bottom: 30px;
+	}
+	.apps-people{
+		margin-bottom: 20px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.screenshot{
+		display: none;
+	}
+	.header{
+		padding-bottom: 70px;
+		margin-bottom: 70px;
+	}
+	.header__top-line{
+		margin-bottom: 70px;
+	}
+	.navbar-brand {
+  	 	padding-top: 0;
+	}
+	.navbar-inverse .navbar-nav > li.menu-button a{
+		max-width: 127px;
+	}
+	.header br{
+		display: none;
+	}
+	.header__caption{
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.header__paragraphe{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.h2,
+	.features-item,
+	.h2__slogan{
+		text-align: center;
+	}
+	.h2{
+		font-size: 24px;
+	}
+	.h2__slogan{
+		font-size: 15px;
+	}
+	.features-item{
+		margin: 0 0 30px 0;
+	}
+	.h2:after{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.features-item_icon,
+	.features-item_name{
+		display: block;
+		margin: 0 auto 20px;
+	}
+	.state,
+	.video-block,
+	.screenshot{
+		padding: 0 0 100px 0;
+	}
+	.features__img{
+		margin-bottom: 30px;
+	}
+	.screenshot__pic img{
+		max-width: 60%	;
+	}
+	.screenshot__controls{
+		text-align: center;
+	}
+	.paket:nth-child(n){
+		display: block;
+		width: 70%;
+		margin: 0 auto 20px;
+	}
+	.reviews{
+		margin: 0 0 70px 0
+	}
+	.color-block__item:nth-child(n){
+		margin:  0 0 20px 0;
+		position: static;
+	}
+	.download_but{
+		float: none;
+		margin: 0 auto 20px;
+	}
+	.nav-tabs > li:nth-child(n){
+		height: 100px;
+		margin-bottom: 20px;
+	}
+	.nav-tabs > li:last-child{
+		margin-bottom: 0;
+	}
+	.tab-pane{
+		min-height: 220px;
+	}
+	.tab-text .tab-text_paragraphe{
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.tab-text .tab-text_date{
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.download_but-apple{
+		margin-bottom: 60px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.header__caption,
+	.header__paragraphe{
+		text-align: center;
+	}
+	.header__caption{
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.header__paragraphe{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.header__text_button:first-child{
+		margin-right: auto;
+	}
+	.header__text_button{
+		max-width: 200px;
+		display: block;
+		margin: 0 auto 20px;
+		text-align: center;
+	}
+	.features__img img{
+		max-width: 60%;
+	}
+	.state-circle_wrapper{
+		height: 240px;
+		width: 240px;
+	}
+	.state-circle{
+		height: 200px;
+		width: 200px;
+	}
+	.paket:nth-child(n){
+		width: 100%;
+	}
+	.reviews_map{
+		background-repeat: repeat;
+	}
+	.blog{
+		display: none;
+	}
+	.contact .step-wraper{
+		padding: 20px 10px;
+	}
+	.footer-social_link{
+		margin-bottom: 10px;
+	}
+	.header__top-line {
+	    margin-bottom: 20px;
+	}
+}
